@@ -41,7 +41,7 @@ impl Shelf {
     /// ```
     /// use dw16::stock::Shelf;
     ///
-    /// let mut shelf = Shelf::new(20);
+    /// let mut shelf = Shelf::new(2);
     /// shelf.add(5);
     /// shelf.remove(3);
     /// assert_eq!(shelf.level(), 2);
@@ -57,7 +57,7 @@ impl Shelf {
     /// ```
     /// use dw16::stock::Shelf;
     ///
-    /// let mut shelf = Shelf::new(50);
+    /// let mut shelf = Shelf::new(7);
     /// shelf.add(7);
     /// assert_eq!(shelf.level(), 7);
     /// ```

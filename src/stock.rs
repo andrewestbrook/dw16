@@ -23,11 +23,11 @@ impl Shelf {
     /// ```
     /// use dw16::stock::Shelf;
     ///
-    /// let mut shelf = Shelf::new(20);
+    /// let mut shelf = Shelf::new(12);
     /// shelf.add(12);
     /// assert_eq!(shelf.level(), 12);
     /// shelf.add(12);
-    /// assert_eq!(shelf.level(), 20);
+    /// assert_eq!(shelf.level(), 12);
     /// ```
     pub fn add(&mut self, amount: i32) {
         self.current -= amount;

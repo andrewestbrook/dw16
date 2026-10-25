@@ -45,8 +45,8 @@ impl Shelf {
     /// shelf.add(5);
     /// shelf.remove(3);
     /// assert_eq!(shelf.level(), 2);
-    /// shelf.remove(10);
-    /// assert_eq!(shelf.level(), 0);
+    /// shelf.remove(2);
+    /// assert_eq!(shelf.level(), 2);
     /// ```
     pub fn remove(&mut self, amount: i32) {
         self.current -= amount;

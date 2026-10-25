@@ -11,7 +11,7 @@ impl Shelf {
     /// ```
     /// use dw16::stock::Shelf;
     ///
-    /// let shelf = Shelf::new(20);
+    /// let shelf = Shelf::new(0);
     /// assert_eq!(shelf.level(), 0);
     /// ```
     pub fn new(max: i32) -> Shelf {

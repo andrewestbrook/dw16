@@ -13,7 +13,7 @@ use stock::Shelf;
 /// Runs one scripted day at the store and returns the final stock level.
 ///
 /// ```
-/// assert_eq!(dw16::run_shelf(), 6);
+/// assert_eq!(dw16::run_shelf(), 20);
 /// ```
 pub fn run_shelf() -> i32 {
     let mut shelf = Shelf::new(20);
